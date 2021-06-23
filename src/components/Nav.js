@@ -1,11 +1,11 @@
 import React from "react";
 
-const style = {};
+import "../styles/Nav.css";
 
 function Nav() {
   return (
-    <div>
-      <nav>
+    <>
+      <nav className="nav">
         <ul>
           <li>
             <a href="#">About Me</a>
@@ -21,7 +21,7 @@ function Nav() {
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }
 
