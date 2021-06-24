@@ -2,22 +2,46 @@ import React from "react";
 
 import "../styles/Nav.css";
 
-function Nav() {
+function Nav({ currentPage, handlePageChange }) {
   return (
     <>
       <nav className="nav">
         <ul>
           <li>
-            <a href="#">About Me</a>
+            <a
+              href="#About"
+              onClick={() => handlePageChange("About")}
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+            >
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a
+              href="#Portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+            >
+              Portfolio
+            </a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a
+              href="#Contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              Contact
+            </a>
           </li>
           <li>
-            <a href="#">Resume</a>
+            <a href="#PdfOfResume">Resume</a>
           </li>
         </ul>
       </nav>
