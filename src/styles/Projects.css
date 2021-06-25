@@ -1,0 +1,9 @@
+.projectConatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.projectContainer .card {
+  display: inline-block;
+  margin: 30px;
+}
