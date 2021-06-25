@@ -6,12 +6,15 @@ function Footer() {
     <div className="footer">
       <ul>
         <li>
-          <a href="" target="_blank">
+          <a href="https://github.com/KevinJWesley" target="_blank">
             Github
           </a>
         </li>
         <li>
-          <a href="" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/kevin-wesley-896044205/"
+            target="_blank"
+          >
             LinkedIn
           </a>
         </li>
