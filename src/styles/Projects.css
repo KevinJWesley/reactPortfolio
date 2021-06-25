@@ -6,4 +6,25 @@
 .projectContainer .card {
   display: inline-block;
   margin: 30px;
+  align-content: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+  opacity: 50%;
+}
+img:hover {
+  opacity: 100%;
+  transition: 200ms;
+}
+.cardBody a {
+  text-decoration: none;
+  color: black;
 }

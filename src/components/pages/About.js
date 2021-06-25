@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       <h1>About Me</h1>
-      <p>aboutme aboutme aboutme aboutme</p>
+      <p>Web development student. Interested in design and music technology.</p>
     </div>
   );
 }
