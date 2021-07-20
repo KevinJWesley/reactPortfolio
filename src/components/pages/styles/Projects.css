@@ -1,0 +1,33 @@
+.projectConatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.projectContainer .card {
+  display: inline-block;
+  margin: 30px;
+}
+
+.card {
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+  opacity: 50%;
+}
+img:hover {
+  opacity: 100%;
+  transition: 200ms;
+}
+.cardBody a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}

@@ -5,13 +5,13 @@ import { Container, Row } from "react-bootstrap";
 function About() {
   return (
     <>
-      <Container className="container">
+      <Container className="aboutContainer">
         <Row>
-          <h1 className="title">About Me</h1>
+          <h1 className="aboutTitle">About Me</h1>
         </Row>
 
         <Row>
-          <div className="text">
+          <div className="aboutText">
             <p>
               Web development student. Interested in design and music
               technology.

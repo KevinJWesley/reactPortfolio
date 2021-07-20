@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/Projects.css";
+import "./styles/Projects.css";
 import img1 from "../../assets/images/recipe2.png";
 import img2 from "../../assets/images/yoda2.png";
 import img3 from "../../assets/images/scheduler.png";

@@ -40,9 +40,6 @@ function Nav({ currentPage, handlePageChange }) {
               Contact
             </a>
           </li>
-          <li>
-            <a href="#PdfOfResume">Resume</a>
-          </li>
         </ul>
       </nav>
     </>

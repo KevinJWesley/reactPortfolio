@@ -18,6 +18,9 @@ function Footer() {
             LinkedIn
           </a>
         </li>
+        <li>
+          <a href="#PdfOfResume">Resume</a>
+        </li>
       </ul>
     </div>
   );
@@ -25,4 +28,4 @@ function Footer() {
 
 export default Footer;
 
-// link to resume?
+

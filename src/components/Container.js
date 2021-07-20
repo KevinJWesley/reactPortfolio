@@ -21,10 +21,10 @@ function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <div className="Container">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-    </>
+    </div>
   );
 }
 
