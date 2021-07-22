@@ -13,7 +13,7 @@ function About() {
         <Row>
           <div className="aboutText">
             <p>
-              Web development student. Interested in design and music
+              I am a full stack web developer. Interested in design, music and
               technology.
             </p>
           </div>
@@ -22,5 +22,7 @@ function About() {
     </>
   );
 }
+
+// add skills and photo.  New boxes??
 
 export default About;
