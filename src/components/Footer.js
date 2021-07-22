@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
+import pdf from "../assets/pdf/Resume.pdf";
 
 function Footer() {
   return (
@@ -19,7 +20,9 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a href="#PdfOfResume">Resume</a>
+          <a href="https://docs.google.com/document/d/1ywubEUNicQ23SGIauGyJEj768CZm1wA7yfTsuhKh83E/edit?usp=sharing">
+            Resume
+          </a>
         </li>
       </ul>
     </div>
@@ -27,5 +30,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
