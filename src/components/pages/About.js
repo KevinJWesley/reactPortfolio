@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <Container className="aboutContainer">
-        <Row>
+        <Row xs={1}>
           <h1 className="aboutTitle">About Me</h1>
         </Row>
 

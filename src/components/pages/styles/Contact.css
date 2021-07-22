@@ -7,3 +7,11 @@
   padding: 80px;
   border: 4px solid black;
 }
+.contactText a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactText a:hover {
+  opacity: 65%;
+}

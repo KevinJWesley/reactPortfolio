@@ -12,7 +12,7 @@ function Contact() {
         <Row>
           <div className="contactText">
             <p>
-              <a href="#">Email</a>
+              <a href="mailto:kevin.john.wesley@gmail.com">Email</a>
             </p>
           </div>
         </Row>
