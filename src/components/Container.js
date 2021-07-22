@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/Container.css";
 import Nav from "./Nav";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -21,7 +22,7 @@ function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="Container">
+    <div className="container">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
