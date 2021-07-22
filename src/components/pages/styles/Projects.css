@@ -1,33 +1,38 @@
-.projectConatiner {
+/* .projectConatiner {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.projectContainer .card {
+  align-items: center;
+} */
+/* .projectContainer .card {
   display: inline-block;
   margin: 30px;
-  padding: 30spx;
-}
+  padding: 15px;
+} */
 
-.card {
-  display: flex;
+/* .card {
   flex-wrap: wrap;
+  justify-self: center;
+} */
+
+.projectCard {
+  
 }
 
 img {
   max-width: 250px;
   max-height: 250px;
   opacity: 50%;
-  align-items: center;
+  justify-content: center;
 }
 img:hover {
   opacity: 100%;
   transition: 200ms;
 }
-.cardBody a {
+/* .cardBody a {
   text-decoration: none;
   color: black;
   align-items: center;
   justify-content: center;
-}
+} */
+
+/* add a:hover effects */
