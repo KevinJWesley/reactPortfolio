@@ -14,10 +14,10 @@ import { Container, Card, Col, Row } from "react-bootstrap";
 function Projects() {
   return (
     <Container className="projectContainer">
-      <Row>
+      <Row xs={1} md={2}>
         <Col>
           <Card className="card" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={img1} />
+            <Card.Img variant="top" src={img1} alt="Favorite Recipes" />
             <Card.Body>
               <Card.Title>Favorite Recipes</Card.Title>
               <Card.Text>
@@ -41,12 +41,12 @@ function Projects() {
         </Col>
         <Col>
           <Card className="card" style={{ width: "18rem" }}>
-            <Card.Img variant="top" src={img1} />
+            <Card.Img variant="top" src={img2} alt="Yoda Quiz" />
             <Card.Body>
-              <Card.Title>Favorite Recipes</Card.Title>
+              <Card.Title>Yoda Quiz</Card.Title>
               <Card.Text>
                 <a
-                  href="https://murmuring-river-43433.herokuapp.com/"
+                  href="https://tibegex.github.io/Yoda_Speak_Quiz/"
                   target="_blank"
                 >
                   Deployed Link
@@ -54,7 +54,57 @@ function Projects() {
                 <br></br>
 
                 <a
-                  href="https://github.com/JaredWilliam97/Favorite-Recipes"
+                  href="https://github.com/Tibegex/Yoda_Speak_Quiz"
+                  target="_blank"
+                >
+                  Github Link
+                </a>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <Row xs={1} md={2}>
+        <Col>
+          <Card className="card" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={img3} alt="Day Planner" />
+            <Card.Body>
+              <Card.Title>Day Planner</Card.Title>
+              <Card.Text>
+                <a
+                  href="https://kevinjwesley.github.io/WorkDayPlanner/"
+                  target="_blank"
+                >
+                  Deployed Link
+                </a>
+                <br></br>
+
+                <a
+                  href="https://github.com/KevinJWesley/WorkDayPlanner"
+                  target="_blank"
+                >
+                  Github Link
+                </a>
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card className="card" style={{ width: "18rem" }}>
+            <Card.Img variant="top" src={img4} alt="Weather Tracker" />
+            <Card.Body>
+              <Card.Title>Weather Tracker</Card.Title>
+              <Card.Text>
+                <a
+                  href="https://kevinjwesley.github.io/WeatherApp/"
+                  target="_blank"
+                >
+                  Deployed Link
+                </a>
+                <br></br>
+
+                <a
+                  href="https://github.com/KevinJWesley/WeatherApp"
                   target="_blank"
                 >
                   Github Link
